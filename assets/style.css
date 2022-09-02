@@ -1,0 +1,151 @@
+:root {
+  --clr-heading: #1b1f24;
+  --body: #1b1b1b;
+  --off-white: #f4f8fb;
+  --clr-def: #e31e24;
+  --blue: #006cb5;
+  --white: #fff;
+  --black: #000;
+  --font-1: "Poppins", sans-serif;
+  --top-title: #525558;
+  --clr-1: #002143;
+  --clr-2: #e3f3ff;
+  --red: #f42222;
+}
+
+.justify {
+  text-align: justify;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-1);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: var(--black);
+}
+.navbar-nav .nav-link:hover {
+  color: var(--red) !important;
+}
+.navbar {
+  background-color: #002143;
+  color: #fff;
+}
+
+.btn-outline {
+  width: 150px;
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+.btn-outline:hover {
+  color: var(--white);
+  border: 2px solid var(--red);
+  background-color: var(--red);
+}
+.about-us {
+  padding-top: 80px;
+  background-color: var(--off-white);
+  vertical-align: middle;
+}
+.about-us-img {
+  width: 85%;
+}
+.top-title {
+  padding-top: 50px;
+  color: var(--top-title);
+}
+.titles {
+  color: var(--clr-heading);
+}
+.founder-message {
+  padding: 0 15px;
+  border-left: 5px solid var(--red);
+}
+.founder-image img {
+  width: 80px;
+  border-radius: 50%;
+}
+.card {
+  border-radius: 15px;
+}
+.card img {
+  padding: 10px;
+  border-radius: 15px;
+}
+.btn-product {
+  margin-top: 5px;
+  background-color: #002143;
+  color: #fff;
+}
+.btn-product:hover {
+  background-color: #e31e24;
+  color: #fff;
+}
+.product-content {
+  background-image: url(".    /assets/images/background-about.jpg");
+  background-size: cover;
+}
+.numbers {
+  font-size: 25px;
+  font-weight: 700;
+}
+.boost-section {
+  background-color: #002143;
+  color: #fff;
+  overflow: hidden;
+}
+.ipad-image {
+  max-width: none;
+}
+.testimonial-fluid {
+  background-color: var(--off-white);
+}
+.testimonial {
+  background-color: #fff;
+  border: 1px solid #f5f5f5;
+  padding: 40px 30px;
+  margin: 0 25px;
+  overflow: visible;
+  margin-bottom: 40px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 20px 0px rgba(85, 80, 80, 0.15);
+}
+
+.testi-img {
+  width: 50px !important;
+  border-radius: 50%;
+  margin-left: -9px;
+}
+.owner-name {
+  font-size: 14px;
+}
+.section-contact {
+  background-image: url("../assets/images/contact-us.jpg");
+}
+.contact-info {
+  line-height: 40px;
+}
+footer {
+  background-color: #002143;
+  padding: 30px;
+}
+.footer-logo {
+  width: 100px;
+  padding: 10px;
+}
+.social-media-icons {
+  list-style-type: none;
+  display: inline;
+}
+.social-media-icons li {
+  display: inline;
+}
+.social-media-icons li i {
+  width: 50px;
+}
+.social-media-icons li i:hover {
+  color: var(--red);
+}
